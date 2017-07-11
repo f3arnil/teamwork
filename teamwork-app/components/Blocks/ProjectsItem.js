@@ -45,7 +45,7 @@ class ProjectsItem extends Component {
                                 <span>{ project.type }</span>
                             </div>
                             <div className="hideArrBl">
-                                <span className="icon-arr-right"></span>
+                                <span className="icon-arr-port"></span>
                             </div>
                         </div>
                         <Link
