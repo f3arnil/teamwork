@@ -34,575 +34,25 @@ body.fixPage {
     height: 100%;
     z-index: 1;
 }
-
-.backParalax [class*='treangle'] {
+.backParalax [class*='layer'] {
     position: absolute;
     top: 0px;
     left: 0px;
-    -webkit-animation-duration: 40s;
-    -moz-animation-duration: 40s;
-    -o-animation-duration: 40s;
-    animation-duration: 40s;
-
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -o-animation-timing-function: linear;
-    animation-timing-function: linear;
-    
-    -webkit-animation-direction: alternate;
-    -moz-animation-direction: alternate;
-    -o-animation-direction: alternate;
-    animation-direction: alternate;
+    width: 100%;
+    height: 100%;
+    background-position: center 0px;
+    -webkit-transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backParalax [class*='treangle']{
-    display: inline-block;
-    border-bottom:solid 28px #000;
-    border-left:solid 20px transparent;
-    border-right:solid 18px transparent;
-    position: absolute;
-}
-.backParalax [class*='treangle'][class*='1']{
-    border-bottom-color: #7391bf
-}
-.backParalax [class*='treangle'][class*='2']{
-    border-bottom-color: #f85563
-}
-.backParalax [class*='treangle'][class*='3']{
-    border-bottom-color: #8bd592
-}
-.backParalax [class*='treangle'][class*='4']{
-    border-bottom-color: #7391bf
-}
-.backParalax [class*='treangle'][class*='5']{
-    border-bottom-color: #f85563
-}
-.backParalax [class*='treangle'][class*='6']{
-    border-bottom-color: #8bd592
-}
-.backParalax [class*='treangle'][class*='7']{
-    border-bottom-color: #7391bf
+.backParalax .layer1 {
+    background-image: url(/img/backLayer1.png);
 }
 
-.backParalax [class*='treangle'][class*='Bord']{
-    border-bottom:solid 15px #ebebeb;
-    border-left:solid 10px transparent;
-    border-right:solid 8px transparent;
-}
-.backParalax [class*='treangle'][class*='Bord']:after{
-    content:"";
-    display: inline-block;
-    position: absolute;
-    left:50%;
-    top:50%;
-    border-bottom:solid 26px #000;
-    border-left:solid 17px transparent;
-    border-right:solid 14px transparent;
-    margin-left: -17px;
-    margin-top: -7px;
-    z-index: -1;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='1']:after{
-    border-bottom-color: #d9d911
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='2']:after{
-    border-bottom-color: #8bd592
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='3']:after{
-    border-bottom-color: #88c6f2
-}
-.backParalax [class*='treangle'][class*='1']{
-    -webkit-animation-name: treangle1;
-    -moz-animation-name: treangle1;
-    -o-animation-name: treangle1;
-    animation-name: treangle1;
-    
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    animation-delay: 1s;
-}
-.backParalax [class*='treangle'][class*='2']{
-    -webkit-animation-name: treangle2;
-    -moz-animation-name: treangle2;
-    -o-animation-name: treangle2;
-    animation-name: treangle2;
-    
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    animation-delay: 15s;
-}
-.backParalax [class*='treangle'][class*='3']{
-    -webkit-animation-name: treangle3;
-    -moz-animation-name: treangle3;
-    -o-animation-name: treangle3;
-    animation-name: treangle3;
-    
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -o-animation-delay: 2s;
-    animation-delay: 2s;
-}
-.backParalax [class*='treangle'][class*='4']{
-    -webkit-animation-name: treangle4;
-    -moz-animation-name: treangle4;
-    -o-animation-name: treangle4;
-    animation-name: treangle4;
-    
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    animation-delay: 1s;
-}
-.backParalax [class*='treangle'][class*='5']{
-    -webkit-animation-name: treangle5;
-    -moz-animation-name: treangle5;
-    -o-animation-name: treangle5;
-    animation-name: treangle5;
-    
-    
-    -webkit-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -o-animation-delay: 10s;
-    animation-delay: 10s;
-}
-.backParalax [class*='treangle'][class*='6']{
-    -webkit-animation-name: treangle6;
-    -moz-animation-name: treangle6;
-    -o-animation-name: treangle6;
-    animation-name: treangle6;
-    
-    
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    animation-delay: 6s;
-}
-.backParalax [class*='treangle'][class*='7']{
-    -webkit-animation-name: treangle7;
-    -moz-animation-name: treangle7;
-    -o-animation-name: treangle7;
-    animation-name: treangle7;
-    
-    -webkit-animation-delay: 3s;
-    -moz-animation-delay: 3s;
-    -o-animation-delay: 3s;
-    animation-delay: 3s;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='1']{
-    -webkit-animation-name: treangleBord1;
-    -moz-animation-name: treangleBord1;
-    -o-animation-name: treangleBord1;
-    animation-name: treangleBord1;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='2']{
-    -webkit-animation-name: treangleBord2;
-    -moz-animation-name: treangleBord2;
-    -o-animation-name: treangleBord2;
-    animation-name: treangleBord2;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='3']{
-    -webkit-animation-name: treangleBord3;
-    -moz-animation-name: treangleBord3;
-    -o-animation-name: treangleBord3;
-    animation-name: treangleBord3;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='4']{
-    -webkit-animation-name: treangleBord4;
-    -moz-animation-name: treangleBord4;
-    -o-animation-name: treangleBord4;
-    animation-name: treangleBord4;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='5']{
-    -webkit-animation-name: treangleBord5;
-    -moz-animation-name: treangleBord5;
-    -o-animation-name: treangleBord5;
-    animation-name: treangleBord5;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='6']{
-    -webkit-animation-name: treangleBord6;
-    -moz-animation-name: treangleBord6;
-    -o-animation-name: treangleBord6;
-    animation-name: treangleBord6;
-}
-.backParalax [class*='treangle'][class*='Bord'][class*='7']{
-    -webkit-animation-name: treangleBord7;
-    -moz-animation-name: treangleBord7;
-    -o-animation-name: treangleBord7;
-    animation-name: treangleBord7;
-}
-
-.arrAnim:hover .icon-arr-right {
-    -webkit-animation-name: bounceRight;
-    -moz-animation-name: bounceRight;
-    -o-animation-name: bounceRight;
-    animation-name: bounceRight;
-}
-
-@keyframes treangle1 {
-    0% {
-        left:5%;
-        top:10%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%{
-        left:35%;
-        top:40%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(250deg);
-        -ms-transform: rotate(250deg);
-        -webkit-transform: rotate(250deg);
-        -o-transform: rotate(250deg);
-        transform: rotate(250deg);
-    }
-}
-
-@keyframes treangle2 {
-    0% {
-        left:80%;
-        top:20%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(40deg);
-        -ms-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        -o-transform: rotate(40deg);
-        transform: rotate(40deg);
-    }
-    100%{
-        left:85%;
-        top:40%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes treangle3 {
-    0% {
-        left:15%;
-        top:50%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%{
-        left:40%;
-        top:10%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(-100deg);
-        -ms-transform: rotate(-100deg);
-        -webkit-transform: rotate(-100deg);
-        -o-transform: rotate(-100deg);
-        transform: rotate(-100deg);
-    }
-}
-
-@keyframes treangle4 {
-    0% {
-        left:50%;
-        top:45%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(-100deg);
-        -ms-transform: rotate(-100deg);
-        -webkit-transform: rotate(-100deg);
-        -o-transform: rotate(-100deg);
-        transform: rotate(-100deg);
-    }
-    100%{
-        left:2%;
-        top:30%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(-40deg);
-        -ms-transform: rotate(-40deg);
-        -webkit-transform: rotate(-40deg);
-        -o-transform: rotate(-40deg);
-        transform: rotate(-40deg);
-    }
-}
-
-@keyframes treangle5 {
-    0% {
-        left: 10%;
-        top:4%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(40deg);
-        -ms-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        -o-transform: rotate(40deg);
-        transform: rotate(40deg);
-    }
-    100%{
-        left:2%;
-        top:35%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(340deg);
-        -ms-transform: rotate(340deg);
-        -webkit-transform: rotate(340deg);
-        -o-transform: rotate(340deg);
-        transform: rotate(340deg);
-    }
-}
-
-@keyframes treangle6 {
-    0% {
-        left:90%;
-        top:70%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(40deg);
-        -ms-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        -o-transform: rotate(40deg);
-        transform: rotate(40deg);
-    }
-    100%{
-        left: 60%;
-        top: 90%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(70deg);
-        -ms-transform: rotate(70deg);
-        -webkit-transform: rotate(70deg);
-        -o-transform: rotate(70deg);
-        transform: rotate(70deg);
-    }
-}
-
-@keyframes treangle7 {
-    0% {
-        left:60%;
-        top:70%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(70deg);
-        -ms-transform: rotate(70deg);
-        -webkit-transform: rotate(70deg);
-        -o-transform: rotate(70deg);
-        transform: rotate(70deg);
-    }
-    100%{
-        left:65%;
-        top:10%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(40deg);
-        -ms-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        -o-transform: rotate(40deg);
-        transform: rotate(40deg);
-    }
-}
-
-@keyframes treangleBord1 {
-    0% {
-        left:-10%;
-        top:-10%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-    }
-    100%{
-        left:26%;
-        top:26%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-    }
-}
-
-@keyframes treangleBord2 {
-    0% {
-        left:20%;
-        top:80%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(40deg);
-        -ms-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        -o-transform: rotate(40deg);
-        transform: rotate(40deg);
-    }
-    100%{
-        left:50%;
-        top:110%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes treangleBord3 {
-    0% {
-        left:70%0;
-        top:1%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-    }
-    100%{
-        left:90%;
-        top:20%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-    }
-}
-
-@keyframes treangleBord4 {
-    0% {
-        left:16%;
-        top:100%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%{
-        left:-10%;
-        top:80%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-    }
-}
-
-@keyframes treangleBord5 {
-    0% {
-        left:20%;
-        top:-20%;
-        
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-    }
-    100%{
-        left:10%;
-        top:40%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-    }
-}
-
-@keyframes treangleBord6 {
-    0% {
-        left:110%;
-        top:80%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-    }
-    100%{
-        left:60%;
-        top:70%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes treangleBord7 {
-    0% {
-        left:33%;
-        top:90%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100%{
-        left:55%;
-        top:120%;
-         filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        -moz-transform: rotate(120deg);
-        -ms-transform: rotate(120deg);
-        -webkit-transform: rotate(120deg);
-        -o-transform: rotate(120deg);
-        transform: rotate(120deg);
-    }
+.backParalax .layer2 {
+    background-image: url(/img/backLayer2.png)
 }
 
 *,
@@ -854,6 +304,7 @@ input[type='date'], textarea, select {
     transition: all 0.3s;
     border: solid 1px #4c4f65;
     font-family: 'Roboto' !important;
+    border-radius: 0px !important;
 }
 
 textarea {
@@ -1056,8 +507,9 @@ textarea:-ms-placeholder {
 }
 
 .modals {
-    min-height: 100vh;
+    min-height: 500px;
     width: 100%;
+    height: 100vh;
 }
 body.showingModal{
   overflow: hidden;
@@ -1083,7 +535,7 @@ body.showingModal .blockMod{
   left:0px;
 }
 .modals .tCell {
-    padding: 50px 15px;
+    padding: 15px;
     overflow: auto;
 }
 
@@ -1103,6 +555,15 @@ body.showingModal .blockMod{
     transition: opacity 0.5s, visibility 0s ease-out 0.5s;
 }
 
+body .modalsScroll {
+    right:-17px;
+    width: calc(100% + 17px);
+}
+body.showingModal .modalsScroll {
+    right:0px;
+    width:100%;
+}
+
 .modalsScroll.open {
     z-index: 3;
     opacity: 1;
@@ -1116,7 +577,7 @@ body.showingModal .blockMod{
 .modals #overlay {
     z-index: 1;
     position: fixed;
-    background-color: #232323;
+    background-color: #fff;
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -1130,7 +591,7 @@ body.showingModal .blockMod{
 
 }
 .open .modals #overlay {
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .modals .close {
@@ -1138,8 +599,8 @@ body.showingModal .blockMod{
     z-index: 30;
     background: transparent;
     position: absolute;
-    right: 18px;
-    top: 20px;
+    right: 10px;
+    top: 10px;
     width: 45px;
     height: 45px;
     text-decoration: none;
@@ -1148,6 +609,7 @@ body.showingModal .blockMod{
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    opacity: 0.5;
 }
 
 .modals .close span:last-child {
@@ -1181,11 +643,9 @@ body.showingModal .blockMod{
     transition: all 0.3s;
 }
 
-.modals .close:hover span {
-    background-color: #6f6f6f;
-}
 
 .modals .close:hover {
+    opacity: 1;
 }
 
 .blockMod .in .cap {
@@ -1207,7 +667,6 @@ body.showingModal .blockMod{
     display: block;
     width: 510px;
     overflow: hidden;
-    position: relative;
     z-index: 2;
     background: #fff;
     margin: 0 auto;
@@ -1497,6 +956,10 @@ button.hGradBtn {
         font-size: 32px;
         margin-left: 11px;
         color: #fff;
+    }
+    body .modalsScroll {
+        right: 0px;
+        width: 100%;
     }
 }
 
